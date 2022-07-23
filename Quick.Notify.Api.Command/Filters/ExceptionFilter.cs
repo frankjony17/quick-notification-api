@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
-using NeonSource.Infra.Abstractions.Exceptions;
-using NeonSource.Infra.Abstractions.Logging;
-using Quick.Notification.Domain.Abstractions.Exceptions;
-using Quick.Notification.Domain.Abstractions.Models.Errors;
-using Quick.Notification.Domain.Abstractions.Services;
+using CompanySource.Infra.Abstractions.Exceptions;
+using CompanySource.Infra.Abstractions.Logging;
+using Quick.Notify.Domain.Abstractions.Exceptions;
+using Quick.Notify.Domain.Abstractions.Models.Errors;
+using Quick.Notify.Domain.Abstractions.Services;
 using System;
 using System.Linq;
 
-namespace Quick.Notification.Api.Command.Filters
+namespace Quick.Notify.Api.Command.Filters
 {
     public class ExceptionFilter : IExceptionFilter
     {

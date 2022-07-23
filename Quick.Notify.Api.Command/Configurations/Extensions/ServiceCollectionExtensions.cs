@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
-using Quick.Notification.Api.Command.Filters;
-using Quick.Notification.Domain.Configurations.Models;
+using Quick.Notify.Api.Command.Filters;
+using Quick.Notify.Domain.Configurations.Models;
 using System.Linq;
 using System.Net;
 using System.Text.Json;
 
-namespace Quick.Notification.Api.Command.Configurations.Extensions
+namespace Quick.Notify.Api.Command.Configurations.Extensions
 {
     public static class ServiceCollectionExtensions
     {

@@ -5,7 +5,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Linq;
 
-namespace Quick.Notification.Api.Command.Configurations
+namespace Quick.Notify.Api.Command.Configurations
 {
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
@@ -24,7 +24,7 @@ namespace Quick.Notification.Api.Command.Configurations
                 {
                     var info = new OpenApiInfo
                     {
-                        Title = "PIX Payment Notify Command",
+                        Title = "Company Payment Notify Command",
                         Version = act.ApiVersion.ToString()
                     };
 

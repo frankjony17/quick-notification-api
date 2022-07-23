@@ -1,4 +1,4 @@
-﻿namespace Quick.Notification.Domain.Notify.Model
+﻿namespace Quick.Notify.Domain.Notify.Model
 {
     public class NotifyMessage
     {

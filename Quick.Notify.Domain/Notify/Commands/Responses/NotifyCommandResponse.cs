@@ -1,4 +1,4 @@
-﻿namespace Quick.Notification.Domain.Notify.Commands.Responses
+﻿namespace Quick.Notify.Domain.Notify.Commands.Responses
 {
     public class NotifyCommandResponse
     {

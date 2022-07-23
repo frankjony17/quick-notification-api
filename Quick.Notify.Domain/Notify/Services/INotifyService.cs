@@ -1,8 +1,8 @@
-﻿using Quick.Notification.Domain.Notify.Commands.Requests;
-using Quick.Notification.Domain.Notify.Commands.Responses;
+﻿using Quick.Notify.Domain.Notify.Commands.Requests;
+using Quick.Notify.Domain.Notify.Commands.Responses;
 using System.Threading.Tasks;
 
-namespace Quick.Notification.Domain.Notify.Services
+namespace Quick.Notify.Domain.Notify.Services
 {
     public interface INotifyService
     {

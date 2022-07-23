@@ -1,6 +1,6 @@
 using System;
 
-namespace Quick.Notification.Domain.Abstractions.Helpers
+namespace Quick.Notify.Domain.Abstractions.Helpers
 {
     public static class TraceMessageHelper
     {

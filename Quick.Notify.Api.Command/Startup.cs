@@ -6,12 +6,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
-using Quick.Notification.Api.Command.Configurations;
-using Quick.Notification.Api.Command.Configurations.Extensions;
-using Quick.Notification.Infra.CrossCutting.IoC;
+using Quick.Notify.Api.Command.Configurations;
+using Quick.Notify.Api.Command.Configurations.Extensions;
+using Quick.Notify.Infra.CrossCutting.IoC;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Quick.Notification.Api.Command
+namespace Quick.Notify.Api.Command
 {
     public class Startup
     {

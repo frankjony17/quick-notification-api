@@ -1,4 +1,4 @@
-namespace Quick.Notification.Domain.Constants
+namespace Quick.Notify.Domain.Constants
 {
     public static class HttpHeader
     {

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Configuration;
 using System.Linq;
 
-namespace Quick.Notification.Api.Command.Configurations.Extensions
+namespace Quick.Notify.Api.Command.Configurations.Extensions
 {
     public static class SwaggerExtensions
     {

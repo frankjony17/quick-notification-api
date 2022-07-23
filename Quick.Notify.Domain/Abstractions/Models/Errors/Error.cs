@@ -1,4 +1,4 @@
-using Quick.Notification.Domain.Abstractions.Exceptions;
+using Quick.Notify.Domain.Abstractions.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Text.Json.Serialization;
 
-namespace Quick.Notification.Domain.Abstractions.Models.Errors
+namespace Quick.Notify.Domain.Abstractions.Models.Errors
 {
     public class Error
     {

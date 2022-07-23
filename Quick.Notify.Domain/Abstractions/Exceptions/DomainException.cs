@@ -1,11 +1,11 @@
-using Quick.Notification.Domain.Abstractions.Models.Errors;
+using Quick.Notify.Domain.Abstractions.Models.Errors;
 using System;
 using System.Collections.Immutable;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Runtime.Serialization;
 
-namespace Quick.Notification.Domain.Abstractions.Exceptions
+namespace Quick.Notify.Domain.Abstractions.Exceptions
 {
     [ExcludeFromCodeCoverage]
     [Serializable]

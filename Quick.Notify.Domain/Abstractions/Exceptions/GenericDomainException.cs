@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.Serialization;
 
-namespace Quick.Notification.Domain.Abstractions.Exceptions
+namespace Quick.Notify.Domain.Abstractions.Exceptions
 {
     [ExcludeFromCodeCoverage]
     [Serializable]

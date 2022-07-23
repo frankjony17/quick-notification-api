@@ -7,12 +7,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Moq;
 using NUnit.Framework;
-using Quick.Notification.Api.Command;
+using Quick.Notify.Api.Command;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Quick.Notification.Tests.Api
+namespace Quick.Notify.Tests.Api
 {
     class StartupTests
     {

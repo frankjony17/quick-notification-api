@@ -4,12 +4,12 @@ using MediatR;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
-using Quick.Notification.Api.Command.Controllers.V1;
-using Quick.Notification.Domain.Configurations.Services;
-using Quick.Notification.Domain.Notify.Model;
+using Quick.Notify.Api.Command.Controllers.V1;
+using Quick.Notify.Domain.Configurations.Services;
+using Quick.Notify.Domain.Notify.Model;
 using System.Threading.Tasks;
 
-namespace Quick.Notification.Tests.Api.Controllers.V1
+namespace Quick.Notify.Tests.Api.Controllers.V1
 {
     public class NotifyControllerTests
     {

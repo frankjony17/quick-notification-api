@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
-using Quick.Notification.Domain.Abstractions.Helpers;
+using Quick.Notify.Domain.Abstractions.Helpers;
 using System;
 
-namespace Quick.Notification.Tests.Domain.Abstractions
+namespace Quick.Notify.Tests.Domain.Abstractions
 {
     public class TraceMessageHelperTests
     {

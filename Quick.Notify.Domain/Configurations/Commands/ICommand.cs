@@ -1,6 +1,6 @@
 using FluentValidation.Results;
 
-namespace Quick.Notification.Domain.Configurations.Commands
+namespace Quick.Notify.Domain.Configurations.Commands
 {
     public interface ICommand
     {

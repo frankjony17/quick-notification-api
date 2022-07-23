@@ -2,7 +2,7 @@ using FluentValidation.Results;
 using MediatR;
 using System;
 
-namespace Quick.Notification.Domain.Configurations.Commands
+namespace Quick.Notify.Domain.Configurations.Commands
 {
     public abstract class Command<TResponse> : ICommand, IRequest<TResponse>
     {

@@ -1,14 +1,14 @@
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Quick.Notification.Domain.Abstractions.Services;
-using Quick.Notification.Domain.Configurations.Services;
-using Quick.Notification.Domain.Notify.Commands;
-using Quick.Notification.Domain.Notify.Commands.Requests;
-using Quick.Notification.Domain.Notify.Commands.Responses;
-using Quick.Notification.Domain.Notify.Services;
+using Quick.Notify.Domain.Abstractions.Services;
+using Quick.Notify.Domain.Configurations.Services;
+using Quick.Notify.Domain.Notify.Commands;
+using Quick.Notify.Domain.Notify.Commands.Requests;
+using Quick.Notify.Domain.Notify.Commands.Responses;
+using Quick.Notify.Domain.Notify.Services;
 
-namespace Quick.Notification.Infra.CrossCutting.IoC.Modules
+namespace Quick.Notify.Infra.CrossCutting.IoC.Modules
 {
     public static class DomainModule
     {

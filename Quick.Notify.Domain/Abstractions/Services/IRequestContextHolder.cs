@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Quick.Notification.Domain.Abstractions.Services
+namespace Quick.Notify.Domain.Abstractions.Services
 {
     public interface IRequestContextHolder
     {

@@ -4,7 +4,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Linq;
 
-namespace Quick.Notification.Api.Command.Configurations
+namespace Quick.Notify.Api.Command.Configurations
 {
     public class SwaggerDefaultValues : IOperationFilter
     {

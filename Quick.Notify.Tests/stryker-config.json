@@ -4,7 +4,7 @@
     "reporters": [ "progress", "html" ],
     "log-level": "info",
     "timeout-ms": 15000,
-    "project-file": "Quick.Notification.Domain.csproj",
+    "project-file": "Quick.Notify.Domain.csproj",
     "max-concurrent-test-runners": 4,
     "threshold-high": 90,
     "threshold-low": 70,

@@ -2,7 +2,7 @@ using FluentValidation.Results;
 using System;
 using System.Net;
 
-namespace Quick.Notification.Domain.Configurations.Models
+namespace Quick.Notify.Domain.Configurations.Models
 {
     public class InnerError
     {

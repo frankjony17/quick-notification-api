@@ -1,16 +1,16 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using NeonSource.Infra.Abstractions.Logging;
-using Quick.Notification.Domain.Abstractions.Services;
-using Quick.Notification.Domain.Constants;
-using Quick.Notification.Domain.Notify.Commands.Requests;
-using Quick.Notification.Domain.Notify.Model;
+using CompanySource.Infra.Abstractions.Logging;
+using Quick.Notify.Domain.Abstractions.Services;
+using Quick.Notify.Domain.Constants;
+using Quick.Notify.Domain.Notify.Commands.Requests;
+using Quick.Notify.Domain.Notify.Model;
 using System;
 using System.Threading.Tasks;
 
 
-namespace Quick.Notification.Api.Command.Controllers.V1
+namespace Quick.Notify.Api.Command.Controllers.V1
 {
     [ApiVersion("1.0")]
     [Route("/v{version:apiVersion}/notifies/payment")]
@@ -36,12 +36,12 @@ namespace Quick.Notification.Api.Command.Controllers.V1
         public async Task<IActionResult> Post(NotifyRequest request)
         {
             _logger.BeginCorrelationIdScope(_requestContextHolder.CorrelationId);
-            _logger.LogInformation($"Notification received. Protocolo = [{request.Protocolo}]");
+            _logger.LogInformation($"Notify received. Protocolo = [{request.Protocolo}]");
             var command = new NotifyCommandRequest(request);
             if (command.IsValid)
             {
                 var result = await _mediator.Send(command);
-                _logger.LogInformation("Notification processed.");
+                _logger.LogInformation("Notify processed.");
                 return Ok(result);
             }
             else

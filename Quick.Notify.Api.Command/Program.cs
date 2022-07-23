@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Quick.Notification.Infra.CrossCutting.IoC.Modules;
+using Quick.Notify.Infra.CrossCutting.IoC.Modules;
 
-namespace Quick.Notification.Api.Command
+namespace Quick.Notify.Api.Command
 {
     public static class Program
     {

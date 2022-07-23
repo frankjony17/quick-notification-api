@@ -1,11 +1,11 @@
-using Quick.Notification.Domain.Configurations.Models;
+using Quick.Notify.Domain.Configurations.Models;
 using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
-namespace Quick.Notification.Domain.Configurations.Exceptions
+namespace Quick.Notify.Domain.Configurations.Exceptions
 {
     [ExcludeFromCodeCoverage]
     [Serializable]

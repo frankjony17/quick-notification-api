@@ -1,4 +1,4 @@
-using Quick.Notification.Domain.Configurations.Models;
+using Quick.Notify.Domain.Configurations.Models;
 using System;
 using System.Collections.Immutable;
 using System.Diagnostics.CodeAnalysis;
@@ -6,7 +6,7 @@ using System.Net;
 using System.Runtime.Serialization;
 using static System.Net.HttpStatusCode;
 
-namespace Quick.Notification.Domain.Configurations.Exceptions
+namespace Quick.Notify.Domain.Configurations.Exceptions
 {
     [ExcludeFromCodeCoverage]
     [Serializable]

@@ -1,8 +1,8 @@
-using Quick.Notification.Domain.Abstractions.Exceptions;
+using Quick.Notify.Domain.Abstractions.Exceptions;
 using System;
 using System.Net;
 
-namespace Quick.Notification.Domain.Abstractions.Models.Errors
+namespace Quick.Notify.Domain.Abstractions.Models.Errors
 {
     public class InnerError
     {

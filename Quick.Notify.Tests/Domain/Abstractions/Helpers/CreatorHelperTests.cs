@@ -1,10 +1,10 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
-using Quick.Notification.Domain.Abstractions.Helpers;
+using Quick.Notify.Domain.Abstractions.Helpers;
 using System;
 using System.Reflection;
 
-namespace Quick.Notification.Tests.Domain.Abstractions
+namespace Quick.Notify.Tests.Domain.Abstractions
 {
     class CreatorHelperTests
     {

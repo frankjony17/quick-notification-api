@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
-using NeonSource.Infra.Abstractions.Logging;
-using Quick.Notification.Domain.Abstractions.Services;
-using Quick.Notification.Domain.Constants;
+using CompanySource.Infra.Abstractions.Logging;
+using Quick.Notify.Domain.Abstractions.Services;
+using Quick.Notify.Domain.Constants;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Quick.Notification.Api.Command.Filters
+namespace Quick.Notify.Api.Command.Filters
 {    public class ContextFilter : IActionFilter
     {
         private readonly ILogger<ContextFilter> _logWriter;

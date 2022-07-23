@@ -4,20 +4,20 @@ using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.Extensions.Logging;
 using Moq;
-using NeonSource.Infra.Abstractions.MessagingBroker;
+using CompanySource.Infra.Abstractions.MessagingBroker;
 using NUnit.Framework;
-using Quick.Notification.Domain.Abstractions.Services;
-using Quick.Notification.Domain.Configurations.Services;
-using Quick.Notification.Domain.Notify.Commands.Requests;
-using Quick.Notification.Domain.Notify.Commands.Responses;
-using Quick.Notification.Domain.Notify.Model;
-using Quick.Notification.Domain.Notify.Services;
+using Quick.Notify.Domain.Abstractions.Services;
+using Quick.Notify.Domain.Configurations.Services;
+using Quick.Notify.Domain.Notify.Commands.Requests;
+using Quick.Notify.Domain.Notify.Commands.Responses;
+using Quick.Notify.Domain.Notify.Model;
+using Quick.Notify.Domain.Notify.Services;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Quick.Notification.Tests.Domain.Notify.Services
+namespace Quick.Notify.Tests.Domain.Notify.Services
 {
     class NotifyServiceTests
     {

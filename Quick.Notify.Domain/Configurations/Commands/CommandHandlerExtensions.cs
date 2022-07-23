@@ -1,6 +1,6 @@
-using Quick.Notification.Domain.Configurations.Exceptions;
+using Quick.Notify.Domain.Configurations.Exceptions;
 
-namespace Quick.Notification.Domain.Configurations.Commands
+namespace Quick.Notify.Domain.Configurations.Commands
 {
     public static class CommandHandlerExtensions
     {

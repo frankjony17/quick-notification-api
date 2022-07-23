@@ -3,17 +3,17 @@ using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
-using Quick.Notification.Domain.Configurations.Exceptions;
-using Quick.Notification.Domain.Notify.Commands;
-using Quick.Notification.Domain.Notify.Commands.Requests;
-using Quick.Notification.Domain.Notify.Commands.Responses;
-using Quick.Notification.Domain.Notify.Model;
-using Quick.Notification.Domain.Notify.Services;
+using Quick.Notify.Domain.Configurations.Exceptions;
+using Quick.Notify.Domain.Notify.Commands;
+using Quick.Notify.Domain.Notify.Commands.Requests;
+using Quick.Notify.Domain.Notify.Commands.Responses;
+using Quick.Notify.Domain.Notify.Model;
+using Quick.Notify.Domain.Notify.Services;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Quick.Notification.Tests.Domain.Notify.Commands
+namespace Quick.Notify.Tests.Domain.Notify.Commands
 {
     public class NotifyCommandHandlerTests
     {

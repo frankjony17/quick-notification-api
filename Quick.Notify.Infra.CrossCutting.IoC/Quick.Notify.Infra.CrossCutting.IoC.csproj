@@ -9,11 +9,11 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.9" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.9" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.9" />
-    <PackageReference Include="NeonSource.Infra" Version="2.2.0" />
-    <PackageReference Include="NeonSource.Infra.Abstractions" Version="2.2.0" />
-    <PackageReference Include="NeonSource.Infra.JsonApi" Version="2.2.0" />
-    <PackageReference Include="NeonSource.Infra.Logging" Version="2.2.0" />
-    <PackageReference Include="NeonSource.Infra.MessagingBroker" Version="2.2.0" />
+    <PackageReference Include="CompanySource.Infra" Version="2.2.0" />
+    <PackageReference Include="CompanySource.Infra.Abstractions" Version="2.2.0" />
+    <PackageReference Include="CompanySource.Infra.JsonApi" Version="2.2.0" />
+    <PackageReference Include="CompanySource.Infra.Logging" Version="2.2.0" />
+    <PackageReference Include="CompanySource.Infra.MessagingBroker" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>

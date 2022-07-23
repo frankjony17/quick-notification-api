@@ -1,7 +1,7 @@
-using Quick.Notification.Domain.Abstractions.Services;
+using Quick.Notify.Domain.Abstractions.Services;
 using System;
 
-namespace Quick.Notification.Domain.Configurations.Services
+namespace Quick.Notify.Domain.Configurations.Services
 {
     public class RequestContextHolder : IRequestContextHolder
     {

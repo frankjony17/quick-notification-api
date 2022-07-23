@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Api", "01 - Api", "{DCC6519C-0F5E-4FDB-A489-31EC91AD269C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quick.Notify.Api.Command", "Quick.Notify.Api.Command\Quick.Notify.Api.Command.csproj", "{16FCC71C-9015-497E-B142-6F57791A60BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{D5D82E61-3E73-491D-A6F7-12384F8EFDAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quick.Notify.Domain", "Quick.Notify.Domain\Quick.Notify.Domain.csproj", "{F07BE7E8-3962-45D2-B681-8505CE79CB08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{61605555-8455-4ECB-BB8E-6E3BC234E3FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{167A7300-9861-4FB4-B163-84DF05CEF616}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quick.Notify.Infra.CrossCutting.IoC", "Quick.Notify.Infra.CrossCutting.IoC\Quick.Notify.Infra.CrossCutting.IoC.csproj", "{7835AB51-3792-4E40-AE1C-6D0239096C52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Tests", "04 - Tests", "{C822E686-E241-428E-B227-73299DEA9E80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quick.Notify.Tests", "Quick.Notify.Tests\Quick.Notify.Tests.csproj", "{2552A916-EA7E-4370-AB1B-59F94EC81590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Solution Items", "00 - Solution Items", "{9AF920FB-A8C8-4E12-BB91-4ACB8A40F7BB}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16FCC71C-9015-497E-B142-6F57791A60BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FCC71C-9015-497E-B142-6F57791A60BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FCC71C-9015-497E-B142-6F57791A60BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FCC71C-9015-497E-B142-6F57791A60BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07BE7E8-3962-45D2-B681-8505CE79CB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07BE7E8-3962-45D2-B681-8505CE79CB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07BE7E8-3962-45D2-B681-8505CE79CB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07BE7E8-3962-45D2-B681-8505CE79CB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7835AB51-3792-4E40-AE1C-6D0239096C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7835AB51-3792-4E40-AE1C-6D0239096C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7835AB51-3792-4E40-AE1C-6D0239096C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7835AB51-3792-4E40-AE1C-6D0239096C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2552A916-EA7E-4370-AB1B-59F94EC81590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2552A916-EA7E-4370-AB1B-59F94EC81590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2552A916-EA7E-4370-AB1B-59F94EC81590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2552A916-EA7E-4370-AB1B-59F94EC81590}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16FCC71C-9015-497E-B142-6F57791A60BB} = {DCC6519C-0F5E-4FDB-A489-31EC91AD269C}
+		{F07BE7E8-3962-45D2-B681-8505CE79CB08} = {D5D82E61-3E73-491D-A6F7-12384F8EFDAC}
+		{167A7300-9861-4FB4-B163-84DF05CEF616} = {61605555-8455-4ECB-BB8E-6E3BC234E3FD}
+		{7835AB51-3792-4E40-AE1C-6D0239096C52} = {167A7300-9861-4FB4-B163-84DF05CEF616}
+		{2552A916-EA7E-4370-AB1B-59F94EC81590} = {C822E686-E241-428E-B227-73299DEA9E80}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2809093E-B858-4C01-9A8C-5EDCBA7B9966}
+	EndGlobalSection
+EndGlobal

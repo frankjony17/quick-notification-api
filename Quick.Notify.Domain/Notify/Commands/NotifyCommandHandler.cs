@@ -1,13 +1,13 @@
 ﻿using MediatR;
 using Microsoft.Extensions.Logging;
-using Quick.Notification.Domain.Configurations.Commands;
-using Quick.Notification.Domain.Notify.Commands.Requests;
-using Quick.Notification.Domain.Notify.Commands.Responses;
-using Quick.Notification.Domain.Notify.Services;
+using Quick.Notify.Domain.Configurations.Commands;
+using Quick.Notify.Domain.Notify.Commands.Requests;
+using Quick.Notify.Domain.Notify.Commands.Responses;
+using Quick.Notify.Domain.Notify.Services;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Quick.Notification.Domain.Notify.Commands
+namespace Quick.Notify.Domain.Notify.Commands
 {
 
     public class NotifyCommandHandler :

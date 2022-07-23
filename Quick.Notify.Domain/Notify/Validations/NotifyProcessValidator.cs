@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using Quick.Notification.Domain.Notify.Model;
+using Quick.Notify.Domain.Notify.Model;
 
-namespace Quick.Notification.Domain.Notify.Validations
+namespace Quick.Notify.Domain.Notify.Validations
 {
     public class NotifyProcessValidator : AbstractValidator<NotifyProcess>
     {

@@ -1,8 +1,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Quick.Notification.Infra.CrossCutting.IoC.Modules;
+using Quick.Notify.Infra.CrossCutting.IoC.Modules;
 
-namespace Quick.Notification.Infra.CrossCutting.IoC
+namespace Quick.Notify.Infra.CrossCutting.IoC
 {
     public static class IoC
     {

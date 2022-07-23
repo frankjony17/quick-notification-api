@@ -1,12 +1,12 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
-using Quick.Notification.Domain.Configurations.Commands;
-using Quick.Notification.Domain.Notify.Commands.Responses;
-using Quick.Notification.Domain.Notify.Model;
-using Quick.Notification.Domain.Notify.Validations;
+using Quick.Notify.Domain.Configurations.Commands;
+using Quick.Notify.Domain.Notify.Commands.Responses;
+using Quick.Notify.Domain.Notify.Model;
+using Quick.Notify.Domain.Notify.Validations;
 using System;
 
-namespace Quick.Notification.Domain.Notify.Commands.Requests
+namespace Quick.Notify.Domain.Notify.Commands.Requests
 {
     public class NotifyCommandRequest : Command<NotifyCommandResponse>
     {

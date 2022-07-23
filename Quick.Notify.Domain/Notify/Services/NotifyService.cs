@@ -1,17 +1,17 @@
 ﻿using FluentValidation;
 using Microsoft.Extensions.Logging;
-using NeonSource.Infra.Abstractions.Logging;
-using NeonSource.Infra.Abstractions.MessagingBroker;
+using CompanySource.Infra.Abstractions.Logging;
+using CompanySource.Infra.Abstractions.MessagingBroker;
 using Newtonsoft.Json;
-using Quick.Notification.Domain.Abstractions.Services;
-using Quick.Notification.Domain.Notify.Commands.Requests;
-using Quick.Notification.Domain.Notify.Commands.Responses;
-using Quick.Notification.Domain.Notify.Model;
-using Quick.Notification.Domain.Notify.Validations;
+using Quick.Notify.Domain.Abstractions.Services;
+using Quick.Notify.Domain.Notify.Commands.Requests;
+using Quick.Notify.Domain.Notify.Commands.Responses;
+using Quick.Notify.Domain.Notify.Model;
+using Quick.Notify.Domain.Notify.Validations;
 using System;
 using System.Threading.Tasks;
 
-namespace Quick.Notification.Domain.Notify.Services
+namespace Quick.Notify.Domain.Notify.Services
 {
     public class NotifyService : INotifyService
     {
@@ -42,7 +42,7 @@ namespace Quick.Notification.Domain.Notify.Services
                 _logger.LogInformation("Parser performed successfully.");
 
                 Validate(notifyMessage);
-                _logger.LogInformation($"Notification message is valid. EndToEndId = [{notifyMessage.Mensagem.EndToendId}]");
+                _logger.LogInformation($"Notify message is valid. EndToEndId = [{notifyMessage.Mensagem.EndToendId}]");
 
                 var message = new Message<NotifyProcess>
                 {

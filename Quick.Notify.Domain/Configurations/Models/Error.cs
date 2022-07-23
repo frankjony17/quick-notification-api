@@ -1,4 +1,4 @@
-using Quick.Notification.Domain.Configurations.Exceptions;
+using Quick.Notify.Domain.Configurations.Exceptions;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Collections.Immutable;
 using System.Linq;
 using System.Net;
 
-namespace Quick.Notification.Domain.Configurations.Models
+namespace Quick.Notify.Domain.Configurations.Models
 {
     public class Error
     {
