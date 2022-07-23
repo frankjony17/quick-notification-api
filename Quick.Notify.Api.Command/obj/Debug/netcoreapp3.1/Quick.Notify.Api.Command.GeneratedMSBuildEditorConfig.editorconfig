@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Quick.Notify.Api.Command
+build_property.ProjectDir = /home/frank/Projects/others/git/quick-notification-api/Quick.Notify.Api.Command/
